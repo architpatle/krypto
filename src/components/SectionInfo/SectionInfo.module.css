@@ -1,0 +1,24 @@
+.sectionInfo {
+   /* max-width: 60%; */
+    h4{
+        font-size: 20px;
+        color: #95D4D5;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 57px;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+}
+
+/*Responisive CSS */
+@media (max-width :480px) {
+ .sectionInfo h2{
+    font-size: 32px;
+ }   
+}

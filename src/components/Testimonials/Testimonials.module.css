@@ -1,0 +1,24 @@
+.testimonialsSection {
+    max-width: 1200px;
+    margin: 125px auto auto auto;
+    padding: 8px 16px;
+text-align: center;
+    h4{
+        font-size: 20px;
+        color: #86C3BD;
+        text-transform: uppercase;
+    };
+    h2{
+        font-size: 57px;
+        text-transform: capitalize;
+        max-width: 525px;
+        margin: 0 auto;
+    }
+}
+
+.testimonialsCardSection {
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between
+}

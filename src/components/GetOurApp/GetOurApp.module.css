@@ -1,0 +1,8 @@
+.getOurAppSection{
+     max-width: 1200px;
+    padding: 8px 16px;
+    margin: 125px auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,50 @@
+.featuredOnSection {
+    max-width: 1200px;
+    margin: 125px auto auto;
+    padding: 8px 16px;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+}
+
+.companyLogos {
+    background-color: #302963;
+    opacity: 0.8;
+    min-height: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #131027;
+}
+
+@media (max-width:1200px) {
+    .featuredOnSection{
+        max-width: 1024px;
+    }
+}
+
+@media (max-width:1024px) {
+    .featuredOnSection{
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .featuredOnSection{
+        margin-top: 75px;
+        width: 100vw;
+        /* height: fit-content; */
+    }
+    .companyLogos {
+        
+        gap:40px;
+        padding-top: 10px;
+        padding-bottom: 30px
+        ;
+    }
+}
