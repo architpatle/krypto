@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './HeroSection.module.css'
 import Button from '../Button/Button'
 import {motion} from 'framer-motion'
+import heroSectionImg from '../../assets/images/krypto-img1.png'
 
 const HeroSection = () => {
 
@@ -51,7 +52,7 @@ const HeroSection = () => {
                 viewport={{
                 once: true
             }}>
-                <img src="./public/images/krypto-img1.png" alt=""/>
+                <img src={heroSectionImg} alt=""/>
             </motion.div>
         </section>
     )

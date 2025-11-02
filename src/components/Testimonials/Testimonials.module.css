@@ -1,14 +1,14 @@
 .testimonialsSection {
     max-width: 1200px;
-    margin: 125px auto auto auto;
+    margin: 125px auto auto;
     padding: 8px 16px;
-text-align: center;
-    h4{
+    text-align: center;
+    h4 {
         font-size: 20px;
         color: #86C3BD;
         text-transform: uppercase;
     };
-    h2{
+    h2 {
         font-size: 57px;
         text-transform: capitalize;
         max-width: 525px;
@@ -20,5 +20,36 @@ text-align: center;
     display: flex;
     /* background-color: aqua; */
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*Responsive CSS*/
+
+@media (max-width : 1200px) {
+    .testimonialsSection {
+        max-width: 1024px;
+    }
+    .testimonialsCardSection{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width : 1024px) {
+    .testimonialsSection {
+        max-width: 768px;
+    }
+}
+
+@media (max-width : 768px) {
+    .testimonialsSection {
+        max-width: 90vw;
+        margin-top: 75px;
+    }
+}
+
+@media (max-width : 480px) {
+    .testimonialsSection h2{
+        font-size: 32px;
+    }
 }

@@ -12,13 +12,13 @@ import Footer from './components/Footer/Footer'
 const App = () => {
     return (
         <Fragment>
-          <Navbar />
-          <HeroSection />
-           <FeaturedOn />
-          <Analytics />
-          {/*<GetOurApp />
-          <Testimonials />
-          <CtaSection />
+            <Navbar/>
+            <HeroSection/>
+            <FeaturedOn/>
+            <Analytics/>
+            <GetOurApp/> 
+            <Testimonials />
+           {/*<CtaSection />
           <Footer /> */}
         </Fragment>
     )

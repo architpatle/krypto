@@ -1,6 +1,11 @@
 import React from 'react'
 import styles from './FeaturedOn.module.css'
 import { motion } from 'framer-motion'
+import featuredOne from '../../assets/images/krypto-fo-1.png'
+import featuredTwo from '../../assets/images/krypto-fo-2.png'
+import featuredThree from '../../assets/images/krypto-fo-3.png'
+import featuredFour from '../../assets/images/krypto-fo-4.png'
+
 
 const FeaturedOn = () => {  
     return (
@@ -24,10 +29,10 @@ const FeaturedOn = () => {
             }}>
             <h2>Featured On</h2>
             <div className={styles.companyLogos}>
-                <img src="./public/images/krypto-fo-1.png" alt="krypto-fo-1"/>
-                <img src="./public/images/krypto-fo-2.png" alt="krypto-fo-2"/>
-                <img src="./public/images/krypto-fo-3.png" alt="krypto-fo-3"/>
-                <img src="./public/images/krypto-fo-4.png" alt="krypto-fo-4"/>
+                <img src={featuredOne} alt="krypto-fo-1"/>
+                <img src={featuredTwo} alt="krypto-fo-2"/>
+                <img src={featuredThree} alt="krypto-fo-3"/>
+                <img src={featuredFour} alt="krypto-fo-4"/>
             </div>
         </motion.section>
     )

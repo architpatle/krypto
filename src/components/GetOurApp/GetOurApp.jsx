@@ -33,6 +33,7 @@ const GetOurApp = () => {
             <motion.img
                 src={GetOurAppImg}
                 alt="GetOurAppImg"
+                className={styles.getOurAppImg}
                 initial={{
                 opacity: 0,
                 x: 100

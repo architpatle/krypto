@@ -6,3 +6,39 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/*Responsive CSS */
+@media (max-width :1200px) {
+    .getOurAppSection {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width :1024px) {
+    .getOurAppSection {
+        max-width: 768px;
+        gap: 1rem;
+    }
+    .getOurAppImg{
+        width: 40% ;
+    }
+    .getOurAppImg img{
+        width: 100%;
+    }
+}
+@media (max-width : 768px) {
+    .getOurAppSection{
+        margin-top: 75px;
+        max-width: 100vw;
+    }
+}
+
+@media (max-width : 599px) {
+    .getOurAppSection{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .getOurAppImg{
+        width: 60% ;
+    }
+}
