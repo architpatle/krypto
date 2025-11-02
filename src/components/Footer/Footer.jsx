@@ -45,10 +45,10 @@ const Footer = () => {
                 </div>
                 <div className={styles.footerBelow}>
                     <div className={styles.designCredits}>
-                        <p>UI Designed By <span> <a href="https://youtu.be/HZuk6Wkx_Eg?si=yjknS5kK9I8x5jwi" target='_blank'>Flux Academy</a> |</span> </p> 
+                        <p>| UI Designed By <span> <a href="https://youtu.be/HZuk6Wkx_Eg?si=yjknS5kK9I8x5jwi" target='_blank'>Flux Academy</a> |</span> </p> 
                     </div>
                     <div className={styles.developedCredits}>
-                        <p>| Web Page Developed by <span> <a href="https://www.linkedin.com/in/archit-patle/" target='_blank'>Archit Patle</a></span></p>
+                        <p>| Web Page Developed by <span> <a href="https://www.linkedin.com/in/archit-patle/" target='_blank'>Archit Patle</a> |</span></p>
                     </div>
                 </div>
             </div>

@@ -9,11 +9,12 @@
     color: whitesmoke;
 
     position: relative;
-    transition: .2s ease-in;
+    transition: 0.2s ease-in;
     z-index: 1;
 }
 
-.btn::before, .btn::after{
+.btn::after,
+.btn::before {
     position: absolute;
     content: "";
     z-index: -1;
@@ -24,7 +25,7 @@
     border: 1px solid #8F8FDB;
 
 }
-.primaryBtn:hover{
+.primaryBtn:hover {
     background-color: #8f8fdb42;
 
 }
@@ -32,37 +33,36 @@
     background-color: transparent;
     border: 1px solid #9AD6D7;
 }
-.secondaryBtn:hover{
+.secondaryBtn:hover {
     background-color: #9ad6d7c3;
     color: black;
 }
 .tertiaryBtn {
     background-color: black;
     border: 1px solid black;
+    margin: 0;
 }
 .tertiaryBtn:hover {
     background-color: rgba(0, 0, 0, 0.721);
 
 }
 
-
 /*Responsive CSS */
-
 @media (max-width: 1024px) {
-    .btn{
+    .btn {
         width: 175px;
         height: 65px;
     }
 }
 @media (max-width: 740px) {
-    .btn{
+    .btn {
         width: 150px;
         height: 50px;
         font-size: 16px;
     }
 }
 @media (max-width: 480px) {
-    .btn{
+    .btn {
         width: 130px;
         height: 35px;
         font-size: 14px;

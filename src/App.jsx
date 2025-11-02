@@ -18,8 +18,8 @@ const App = () => {
             <Analytics/>
             <GetOurApp/> 
             <Testimonials />
-           {/*<CtaSection />
-          <Footer /> */}
+           <CtaSection />
+          <Footer />
         </Fragment>
     )
 }

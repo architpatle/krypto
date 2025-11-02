@@ -18,3 +18,34 @@
         margin: 0px auto 30px;
     }
 }
+
+
+/* Responsive CSS */
+
+@media (max-width : 1200px) {
+    .CtaSection{
+        max-width: 1008px;
+    }
+}
+@media (max-width : 1024px) {
+    .CtaSection{
+        max-width: 752px;
+    }
+}
+@media (max-width : 768px) {
+    .CtaSection{
+        max-width: 90vw;
+        margin-top: 75px;
+    }
+}
+@media (max-width : 480px) {
+    .CtaSection{
+    padding: 15px 0;
+    border-radius: 30px;
+
+    }
+    .CtaSection h2{
+
+       font-size: 32px;
+    }
+}
