@@ -52,7 +52,7 @@ const Testimonials = () => {
                     <TestimonialsCard
                         CardImg={Img1}
                         CardH6="Olivia cole"
-                        CardP="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. "/>
+                        CardP="KRYPTO makes tracking and learning about crypto effortless. Clean, modern, and fast! "/>
                 </motion.div>
                 <motion.div 
                 initial={{
@@ -75,7 +75,7 @@ const Testimonials = () => {
                     <TestimonialsCard
                         CardImg={Img2}
                         CardH6="Evan white"
-                        CardP="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. "/>
+                        CardP="I love the simplicity and smooth animations — everything feels so intuitive."/>
                 </motion.div>
                 <motion.div 
                 initial={{
@@ -98,7 +98,7 @@ const Testimonials = () => {
                     <TestimonialsCard
                         CardImg={Img3}
                         CardH6="jessica page"
-                        CardP="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. "/>
+                        CardP="A beautiful interface with great attention to detail. Perfect for anyone exploring crypto.”"/>
                 </motion.div>
             </div>
         </div>

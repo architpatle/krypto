@@ -28,7 +28,7 @@ const HeroSection = () => {
                 once: true
             }}>
                 <h1>discover and collect rare nfts</h1>
-                <p>The most secure marketplace for buyingand selling unique crypto assets.</p>
+                <p>The most secure marketplace for buying and selling unique crypto assets.</p>
                
                 <Button btnValue="buy nfts"/>
                 <Button isSecondary btnValue="sell nfts"/>
