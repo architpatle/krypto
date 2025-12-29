@@ -10,9 +10,6 @@ const Button = ({btnValue,isTertiary, isSecondary}) => {
     btnClass = `${styles.primaryBtn} ${styles.btn}`
 
   }
-  // return (
-  //  isSecondary ? <button className={styles.secondaryBtn}>{btnValue}</button> : <button className={styles.btn}>{btnValue}</button>
-  // )
   return(
     <button className={btnClass}>{btnValue}</button>
   )
